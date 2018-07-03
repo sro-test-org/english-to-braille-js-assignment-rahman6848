@@ -21,9 +21,22 @@ The objective of this assignment is to convert the text in english to Braille us
 # Install static server, can just be anything.
 npm install -g node-static
 
+# Install all the dependencies of the application
+npm install
+
 # cd into the assignment folder
 cd text-to-braille
 
 # Run the static server over the port 8080
 static . -p 8080
+```
+
+## Instructions to evaluate the assignment
+
+```
+# Install all the dependencies
+npm install
+
+# Run test cases
+npm run test
 ```
