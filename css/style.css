@@ -1,0 +1,14 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+}
+
+#targetLangText {
+  margin-top: 18px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.targetContainer {
+  margin-top: 18px;
+}
