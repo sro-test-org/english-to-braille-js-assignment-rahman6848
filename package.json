@@ -4,7 +4,9 @@
   "description": "Converting text in English to Braille",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --exit --bail"
+    "test": "mocha --exit --bail",
+    "lint": "eslint index.js",
+    "lint-test-case": "eslint -c .eslintrc.test.yml test/*.js"
   },
   "keywords": [
     "text",
@@ -18,6 +20,9 @@
     "bunyan": "^1.8.12",
     "bunyan-format": "^0.2.1",
     "chai": "^4.1.2",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
     "mocha": "^5.2.0",
     "puppeteer": "^1.5.0",
     "should": "^13.2.1",
