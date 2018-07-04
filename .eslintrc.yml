@@ -3,6 +3,8 @@ env:
   browser: true
   mocha: true
 rules:
+  import/extensions:
+    - js: never
   no-param-reassign:
     - 2
     - props: false
