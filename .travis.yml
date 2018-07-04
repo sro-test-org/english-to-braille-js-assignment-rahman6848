@@ -1,9 +1,11 @@
-sudo: false
+sudo: required
 language: node_js
 node_js:
   - node
 os:
   - linux
+addons:
+  chrome: stable
 install:
   - npm install
 script:
