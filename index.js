@@ -5,7 +5,7 @@
  * in english language to that in the equivalent braille
  * code.
  */
-import englishToBrailleLiteralSet from './english-to-braille';
+import englishToBrailleLiteralSet from './english-to-braille.js';
 
 const englishBrailleCodeMap = new Map(englishToBrailleLiteralSet);
 
